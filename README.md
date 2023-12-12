@@ -12,10 +12,10 @@ Bandwidth monitoring script that checks a upload and download of "X" every numbe
 
 ##### Settings for Email.
 - $Password = ConvertTo-SecureString '**Your Password Here**' -AsPlainText -Force
-- $SMTPServer = "Your SMTP Server Here"
+- $SMTPServer = "your.smtpserver.com"
 - $Port = "587"
-- $From = ""
-- $To = ""
+- $From = "bob@bob.com"
+- $To = "bobjr@bob.com"
 
 ## How to use
 - If the bandwidth is **_above_** the $MinDownload and $MinUpload then it will retest every $ConnectedTime and send an email. (30 Min)
