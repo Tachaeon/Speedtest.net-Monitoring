@@ -1,11 +1,6 @@
 # Speedtest.net-Monitoring
 Bandwidth monitoring script that checks a upload and download of "X" every number of seconds.
-<p align="center">
-  <img src="https://github.com/Tachaeon/Speedtest.net-Monitoring/blob/main/images/output.png" />
-</p>
-<p align="center">
-  <img src="https://github.com/Tachaeon/Speedtest.net-Monitoring/blob/main/images/email.png" />
-</p>
+
 ## Settings
 ##### Time in Seconds to rescan IP address.
 - $ConnectedTime = 1800
