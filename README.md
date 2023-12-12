@@ -19,4 +19,4 @@ Bandwidth monitoring script that checks a upload and download of "X" every numbe
 
 ## How to use
 - If the bandwidth is **_above_** the $MinDownload and $MinUpload then it will retest every $ConnectedTime and send an email. (30 Min)
- -If the bandwidth is **_below_** the $MinDownload and $MinUpload then it will retest every $DisconnectedTime and send an email. (5 Min)
+- If the bandwidth is **_below_** the $MinDownload and $MinUpload then it will retest every $DisconnectedTime and send an email. (5 Min)
